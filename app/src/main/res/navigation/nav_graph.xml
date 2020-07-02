@@ -9,8 +9,18 @@
         android:id="@+id/launcherFragment"
         android:name="com.escmobile.hsm_hospitals.presentation.views.LauncherFragment"
         android:label="fragment_launcher">
- 
+        <action
+            android:id="@+id/action_launcherFragment_to_syncFragment"
+            app:destination="@id/syncFragment"
+            app:popUpTo="@id/launcherFragment"
+            app:popUpToInclusive="true" />
     </fragment>
+
+    <fragment
+        android:id="@+id/syncFragment"
+        android:name="com.escmobile.hsm_hospitals.presentation.views.SyncFragment"
+        android:label="fragment_sync"
+        tools:layout="@layout/fragment_sync"/>
 
 
 </navigation>
