@@ -10,5 +10,18 @@
         <item name="android:textSize">16sp</item>
     </style>
 
+    <style name="appLabel.sub">
+        <item name="android:textSize">12sp</item>
+    </style>
 
+    <style name="appLabel.title">
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding_small</item>
+        <item name="android:background">#CCCCCC</item>
+    </style>
+
+    <style name="appLabel.error">
+        <item name="android:textColor">@color/colorError</item>
+    </style>
 </resources>
