@@ -13,5 +13,10 @@
 
     <color name="toolbar_background">@color/colorPrimary</color>
 
+    <color name="hospitalColourTint1">#264653</color>
+    <color name="hospitalColourTint2">#2A9D8F</color>
+    <color name="hospitalColourTint3">#E9C46A</color>
+    <color name="hospitalColourTint4">#F4A261</color>
+    <color name="hospitalColourTint5">#E76F51</color>
 
 </resources>
