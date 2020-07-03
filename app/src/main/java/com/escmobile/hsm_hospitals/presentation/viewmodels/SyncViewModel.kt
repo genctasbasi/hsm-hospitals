@@ -45,6 +45,11 @@ class SyncViewModel(
             return
         }
 
+        if (hospitals.isNotEmpty()) {
+            navigationManager.navigateTo(SyncFragmentDirections.actionSyncFragmentToSearchFragment())
+            return
+        }
+
         viewModelScope.launch(Dispatchers.IO) {
             val response = dataLoaderRepository.loadData()
 

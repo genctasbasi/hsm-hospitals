@@ -11,6 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
         android:background="@color/toolbar_background"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
         app:popupTheme="@style/AppTheme.PopupOverlay"
         app:titleTextColor="@color/textColorPrimary">
 

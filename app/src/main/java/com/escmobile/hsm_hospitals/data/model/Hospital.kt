@@ -70,6 +70,7 @@ data class Hospital(
     val website: String,
 
     @SerializedName("Fax")
-    val fax: String
+    val fax: String,
 
+    val tintColour: Int?
 ) : Parcelable

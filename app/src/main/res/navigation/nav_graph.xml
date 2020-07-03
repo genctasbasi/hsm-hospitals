@@ -20,7 +20,14 @@
         android:id="@+id/syncFragment"
         android:name="com.escmobile.hsm_hospitals.presentation.views.SyncFragment"
         android:label="fragment_sync"
-        tools:layout="@layout/fragment_sync"/>
+        tools:layout="@layout/fragment_sync">
+
+        <action
+            android:id="@+id/action_syncFragment_to_searchFragment"
+            app:destination="@id/searchFragment"
+            app:popUpTo="@id/syncFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
 
     <fragment
         android:id="@+id/searchFragment"
