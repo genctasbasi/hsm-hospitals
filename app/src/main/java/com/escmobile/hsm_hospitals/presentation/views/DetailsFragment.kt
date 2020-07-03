@@ -11,8 +11,6 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.escmobile.hsm_hospitals.R
 import kotlinx.android.synthetic.main.fragment_details.*
-import kotlinx.android.synthetic.main.fragment_details.hospitalAddress
-import kotlinx.android.synthetic.main.fragment_details.hospitalName
 import kotlinx.android.synthetic.main.include_toolbar_details.*
 
 class DetailsFragment : BaseFragment() {
@@ -53,9 +51,17 @@ class DetailsFragment : BaseFragment() {
 
         open_url.visibility = if (hospital.website.isBlank()) View.GONE else View.VISIBLE
         open_url.setOnClickListener {
+            openUrl(hospital.website)
+        }
+    }
+
+    private fun openUrl(hospital: String) {
+        try {
             val openURL = Intent(Intent.ACTION_VIEW)
-            openURL.data = Uri.parse(hospital.website)
+            openURL.data = Uri.parse(hospital)
             startActivity(openURL)
+        } catch (exception: Exception) {
+            // TODO: Log and ignore, as the URL could be broken
         }
     }
 }

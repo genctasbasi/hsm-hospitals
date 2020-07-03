@@ -2,11 +2,11 @@
 ### by Genc Tasbasi
 
 ## Technologies and libraries used:
- - Proper MVVM architecture with Android Jetpack components: Views, ViewModels, Repositories
+ - Proper MVVM architecture with Android Jetpack components
  - Dependency injection (DI) with Koin
- - Searching for a hospital, asynchronously
  - Kotlin extensions to convert and combine hospital search results
  - DownloadManager for network communication / downloading file
+ - Hospital search & display hospital details along with the website
  - Lifecycle and live data to pass search results to UI
  - androidx package for backward compatibility
  - Single activity app as suggested by Google
