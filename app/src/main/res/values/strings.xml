@@ -4,7 +4,7 @@
 
     <string name="no_results">No results found. Try NHS maybe?</string>
     <string name="check_the_hospital">Check the hospital website</string>
-    <string name="sync_in_progress">Downloading data - please hold on tight.\nThis is done only once.</string>
+    <string name="sync_in_progress">Downloading data - please hold tight.\nThis is done only once.</string>
     <string name="loading_data">Loading data</string>
     <string name="loading_failed">Data loading failed: %1s</string>
     <string name="sync_failed">Ops. Something went wrong - cannot download the data.</string>

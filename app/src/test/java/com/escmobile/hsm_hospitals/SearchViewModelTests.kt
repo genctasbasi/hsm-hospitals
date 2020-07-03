@@ -1,5 +1,6 @@
 package com.escmobile.hsm_hospitals
 
+import android.graphics.Color
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import com.escmobile.hsm_hospitals.data.model.Hospital
 import com.escmobile.hsm_hospitals.data.model.SubType
@@ -24,7 +25,7 @@ class SearchViewModelTests {
     @get:Rule
     var rule: TestRule = InstantTaskExecutorRule()
 
-    lateinit var searchViewModel: SearchViewModel
+    private lateinit var searchViewModel: SearchViewModel
 
     @Mock
     lateinit var mockNavigationManager: NavigationManager
@@ -96,7 +97,8 @@ class SearchViewModelTests {
             "",
             "",
             "",
-            ""
+            "",
+            Color.BLUE
         ),
         Hospital(
             "2",
@@ -120,7 +122,8 @@ class SearchViewModelTests {
             "",
             "",
             "",
-            ""
+            "",
+            Color.YELLOW
         )
     )
 }
