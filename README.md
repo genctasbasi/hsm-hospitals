@@ -18,3 +18,5 @@
  ![Details screen](http://escmobile.com/projects/resources/host/sensyne/hospital_detail.png)
  ![Search screen](http://escmobile.com/projects/resources/host/sensyne/downloading.png)
  ![Details screen](http://escmobile.com/projects/resources/host/sensyne/hospital_website.png)
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/becris" title="Becris">Becris</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
