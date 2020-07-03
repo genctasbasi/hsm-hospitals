@@ -13,8 +13,8 @@
  - NavigationComponent
  - Sample Unit & Espresso test
 
- ![Details screen](http://escapp.co.uk/projects/sensyne/hospital_search.png)
- ![Details screen](http://escapp.co.uk/projects/sensyne/hospital_search_results.png)
- ![Details screen](http://escapp.co.uk/projects/sensyne/hospital_detail.png)
- ![Search screen](http://escapp.co.uk/projects/sensyne/downloading.png)
- ![Details screen](http://escapp.co.uk/projects/sensyne/hospital_website.png)
+ ![Details screen](http://escmobile.com/projects/resources/host/sensyne/hospital_search.png)
+ ![Details screen](http://escmobile.com/projects/resources/host/sensyne/hospital_search_results.png)
+ ![Details screen](http://escmobile.com/projects/resources/host/sensyne/hospital_detail.png)
+ ![Search screen](http://escmobile.com/projects/resources/host/sensyne/downloading.png)
+ ![Details screen](http://escmobile.com/projects/resources/host/sensyne/hospital_website.png)
